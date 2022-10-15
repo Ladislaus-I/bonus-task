@@ -167,7 +167,9 @@ except FileNotFoundError:
 
 menu()
 
-i = 0
-while(i < len(file_text)):
-    print(file_text[i])
-    i += 1
+save()
+
+#i = 0
+#while(i < len(file_text)):
+#    print(file_text[i])
+#    i += 1
