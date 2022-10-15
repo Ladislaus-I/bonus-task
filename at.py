@@ -1,5 +1,15 @@
 def help_message():
-    print("placeholder")
+    print("""The list of allowed commands. [] - means argument. Arguments arent necessary.
+help                - display this message
+append [str]        - append string to the end of the file 
+show [int] [int]    - show strings from a to b
+remove [int] [int]  - remove strings from a to b
+delstr [int]        - delete string a
+addstr [int] [str]  - add string to the place with number a
+assign [int] [str]  - assign new value to the string with number a 
+save                - save to the opened file
+saveas [str]        - save to another file
+exit - exit from the program""")
     return()
 
 def delete_string(i = 0):
